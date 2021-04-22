@@ -7,7 +7,7 @@ public class Thermometer extends Publisher{
         return temperature;
     }
 
-    public void setTemperature(){
+    public void startMeasuring(){
         for (int i = 0; i < 10; i++){
             temperature = (int)(10 + (Math.random()*12));
             notify(temperature);
