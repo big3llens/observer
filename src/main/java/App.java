@@ -8,6 +8,6 @@ public class App {
         thermometer.addSubscriber(new UserOne());
         thermometer.addSubscriber(new UserTwo());
 
-        thermometer.setTemperature();
+        thermometer.startMeasuring();
     }
 }
